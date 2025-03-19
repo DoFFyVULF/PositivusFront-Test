@@ -2,8 +2,16 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "",
+  "basePath": "/PositivusFront-Test",
   "redirects": [
+    {
+      "source": "/PositivusFront-Test/",
+      "destination": "/PositivusFront-Test",
+      "basePath": false,
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^/PositivusFront-Test/$"
+    },
     {
       "source": "/:path+/",
       "destination": "/:path+",
