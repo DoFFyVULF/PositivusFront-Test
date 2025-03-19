@@ -1,0 +1,48 @@
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu a {
+    color: black;
+    transition: all 0.7s ease-in-out;
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    padding: 10px; /* Добавляем отступы для плавного перехода */
+    border-radius: 10px; /* Добавляем скругление углов */
+}
+
+.menu .active {
+    background-color: #b9ff66;
+    animation: headerAnimation .7s;
+}
+
+@media (max-width: 993px) {
+    .header_wrapper {
+        justify-content: center;
+    }
+}
+
+@keyframes headerAnimation {
+    from{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "nvrsurr",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroui/navbar": "^2.2.13",
+    "bootstrap": "^5.3.3",
+    "embla-carousel-react": "^8.5.2",
+    "next": "15.2.0",
+    "postcss": "^8.5.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "reactstrap": "^9.2.3",
+    "sass": "^1.86.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.14",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4.0.14",
+    "typescript": "^5"
+  }
+}
